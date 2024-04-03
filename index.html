@@ -15,37 +15,108 @@
         <meta name="robots" content="index, follow">
         <meta name="theme-color" content="#09asa">
         <link rel="icon" type="image/jpg" href="Images/Santiago Lopez.jpg">
+
+        <style>
+            body{
+                background: #08aa
+            }
+        </style>
+
+
     </head>
-    <body>
+<body>          
+  <header>
+    <h1>Porfolio de Santy👨‍💻</h1>
+     
+    <nav>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a 
+        href="https://github.com/santlixc"
+        target="_blank"
+        rel="noreferrer">Github</a>
+    </nav>
+    <div>
+      <audio controls src="Images\Audios\Yo cantando.ogg">
+        </audio>
+    </div>
+      <iframe src="https://www.yourupload.com/embed/65SkeL8215wq">
+        </iframe>
+  </header>
 
+  <main>
+    <p> 0 años de experiencia pero con <strong><em>todas las ganas de aprender</em></strong></p>
 
-
-            
+    <h2 id="experiencia">Experiencia</h2> <!--Cosas como h1, ul(unrodened list), li se llaman
+    etiquetas-->
     
-<h1>Porfolio de Santy👨‍💻</h1>
+    <ul>
+      <li class="List-item">Proji - 2023</li>
+      <li class="List-item">UTP - 2021</li>
+      <li class="List-item">Platzi 2023</li>
+    </ul>
 
-<p> 0 años de experiencia pero con <strong><em>todaas las ganas de aprender</em></strong></p>
+    <img
+    id="photo-image"
+    title= "el santy posando a camara con los brazos cruzados"
+    alt= "el santy mirando a camara con los brazos cruzados"
+    width="250"
+    height="285"
+    src="images/Santiago Lopez.jpg" style= "border-radius: 50%;">
 
-<h2>Experiencia</h2> <!--Cosas como h1, ul(unrodened list), li se llaman
-etiquetas-->
+    <h3 id=proyectos>Proyectos Realizados</h3>
+    <section>   
+      <header>
+          <h4>Tecnologias <span>Favoritas</span></h4>
+      </header>
+      <ol type="1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Github</li>
+      </ol>
+    </section>
 
-<ul>
-    <li class="List-item">Proji - 2023</li>
-    <li class="List-item">UTP - 2021</li>
-    <li class="List-item">Platzi 2023</li>
-</ul>
+    <section>
+      <h2>Formulario de contacto</h2>
+      <form method="post" action="/">
+        <fieldset>
+          <legend>Informacion personal</legend>
+          
+          <div>
+            <label >Nombre:
+              <input 
+              type="text" name="name" placeholder="Santiago Lopez" required>
+            </label>
+          </div>
+          <label>Email:
+            <input type="email" name="email" placeholder="Pepitoperez@gmail.com" required>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Informacion adicional</legend>
+          <div>
+            <label>Telefono
+              <input type=tel name="telefono" 
+              placeholder="55555555" required pattern="[0-9]{9}">
+            </label>
+          </div>
+        </fieldset>
 
-<img
-id="photo-image"
-width="250"
-height="285"
-title= "el santy posando a camara con los brazos cruzados"
-alt= "el santy mirando a camara con los brazos cruzados"
-src="/images/Santiago Lopez.jpg">
+        <input type="submit" value="Enviar contacto">
+        </form>
+
+    </section>
+  </main> 
+
+  <footer>
+    Copyright @ 2024 - El protafolio mas aleta de la cuadra.
+    <a href="mailto:salopo22@gmailcom">Enviame un correo</a>
+    <a href=tel:+3135569386>llamar por telefono</a>
+    <a href="whatsapp://send?text=hola santytel:+3135569386">Escribeme a Whasapp</a>
+  </footer>
 
 </body>
-
-
-
 
 </html>
